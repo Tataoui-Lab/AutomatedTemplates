@@ -35,6 +35,7 @@
 #
 # 8. In addition, the following binaries would be required based on your deployment use case
 #    - VMware OS Optimization Tool
+#    - VMware Horizon Agent
 #    - VMware Dynamic Environment Agent
 #    - VMware App Volume Agent
 #
