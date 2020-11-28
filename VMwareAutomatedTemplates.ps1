@@ -63,16 +63,16 @@ if ($DataSource -eq 'S') {
     $VCSASSOPassword = 'VMware1!'
     $strESXHost = 'esx01.tataoui.com'
 
-    $strO365Username = 'dominic.chan@tataoui.com' # Office 365 username
-    $strO365Password = 'Mayflower#0322' # Office 365 Password ##########################
+    $strO365Username = 'username@outlook.com' # Office 365 username
+    $strO365Password = 'outlookpassword' # Office 365 Password ##########################
     $strSMTPServer = 'smtp.office365.com' # SMTP Server
     $intSMTPPort = 587 # SMTP Server Port
-    $strSendTo = 'dwchan69@gmail.com' # Email Recipient
+    $strSendTo = 'users@gmail.com' # Email Recipient
 
     $strUseCase = 'Horizon' # Horizon (toggle installation of agents - Windows only)
     $strOSVersion = 'Win10' # Win10 / Win2016 / Win2019 / CentOS / RHEL
     $strVMName = 'win10' # Name of the Virtual Machine that will become the template
-    $strVMPassword = '$vbe#26r' # Local admin password of the virtual machine
+    $strVMPassword = 'password' # Local admin password of the virtual machine
     $intVMCPU = 1 # Allocate number of vCPU for the VM
     $intVMMemory = 4 # Allocate memory size for the VM
     $intVMDisksize = 20 # Allocate disk space for the VM
